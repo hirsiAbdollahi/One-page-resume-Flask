@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>DevResume - {{ data.profile.first_name }} {{ data.profile.last_name }} </title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="static/fontawesome/js/all.min.js"></script>
+	
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="static/css/devresume.css">
+
+</head> 
+
+<body>
+	
+	<div class="main-wrapper">
+		<div class="container px-3 px-lg-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+				
+				<div class="resume-header">
+					<div class="row align-items-center">
+						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+							<h2 class="resume-name mb-0 text-uppercase">{{ data.profile.first_name }} {{ data.profile.last_name }}</h2>
+							<div class="resume-tagline mb-3 mb-md-0">{{ data.profile.title }}</div>
+						</div><!--//resume-title-->
+						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+							<ul class="list-unstyled mb-0">
+								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">{{ data.profile.phone }}</a></li>
+								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">{{ data.profile.email }}</a></li>
+
+								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>{{ data.profile.address }}</li>
+							</ul>
+						</div><!--//resume-contact-->
+					</div><!--//row-->
+					
+				</div><!--//resume-header-->
+				<hr>
+				<div class="resume-intro py-3">
+					<div class="media flex-column flex-md-row align-items-center">
+						<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="static/images/resume-profile.png" alt="image">
+						<div class="media-body text-left">
+							<p class="mb-0">{{ data.profile.description }}</p>
+						</div><!--//media-body-->
+					</div>
+				</div><!--//resume-intro-->
+				<hr>
+				<div class="resume-body">
+					<div class="row">
+						<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+							<section class="work-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Experiences</h3>
+								
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ data.experience.item0.position }} </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">{{ data.experience.item0.company }} | {{ data.experience.item0.from }} - {{ data.experience.item0.to }}</div>
+										
+									</div>
+									<div class="item-content">
+										<ul class="item-content">
+											<br>
+											<li>{{ data.experience.item0.description.item1 }}</li>
+											<br>
+											<li>{{ data.experience.item0.description.item2 }}</li>
+											<br>
+											<li>{{ data.experience.item0.description.item3 }}</li>
+											<br>
+										</ul>
+									</div>
+								</div><!--//item-->
+								
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ data.experience.item1.position }} </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">{{ data.experience.item1.company }} | {{ data.experience.item1.from }} - {{ data.experience.item1.to }}</div>
+										
+									</div>
+									<div class="item-content">
+										<ul class="item-content">
+											<br>
+											<li>{{ data.experience.item1.description.item1 }}</li>
+											<br>
+											<li>{{ data.experience.item1.description.item2 }}</li>
+											<br>
+											<li>{{ data.experience.item1.description.item3 }}</li>
+											<br>
+										</ul>
+									</div>
+								</div><!--//item-->
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ data.experience.item2.position }} </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">{{ data.experience.item2.company }} | {{ data.experience.item2.from }} - {{ data.experience.item2.to }}</div>
+										
+									</div>
+									<div class="item-content">
+										<ul class="item-content">
+											<br>
+											<li>{{ data.experience.item2.description.item1 }}</li>
+											<br>
+											<li>{{ data.experience.item2.description.item2 }}</li>
+											<br>
+											<li>{{ data.experience.item2.description.item3 }}</li>
+											<br>
+										</ul>
+									</div>
+								</div><!--//item-->
+							</section><!--//work-section-->
+
+					
+
+						</div><!--//resume-main-->
+						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+								<div class="item">
+									<h4 class="item-title">Technical</h4>
+									<ul class="list-unstyled resume-skills-list">
+										<li class="mb-2">{{ data.skills.technical.item0 }}</li>
+										<li class="mb-2">{{ data.skills.technical.item1 }}<li>
+											<li class="mb-2">{{ data.skills.technical.item2 }}</li>
+											<li class="mb-2">{{ data.skills.technical.item3 }}</li>
+											<li class="mb-2">{{ data.skills.technical.item4 }}</li>
+											<li class="mb-2">{{ data.skills.technical.item5 }}</li>
+											<li>{{ data.skills.technical.item6 }}</li>
+										</ul>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="item-title">Professional</h4>
+										<ul class="list-unstyled resume-skills-list">
+											<li class="mb-2">{{ data.skills.professional.item0 }}</li>
+											<li class="mb-2">{{ data.skills.professional.item1 }}r<li>
+												<li class="mb-2">{{ data.skills.professional.item2 }}</li>
+												<li>{{ data.skills.professional.item3 }}</li>
+											</ul>
+										</div><!--//item-->
+									</section>
+									
+									
+									<section class="skills-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+										<ul class="list-unstyled resume-lang-list">
+											<li class="mb-2">{{ data.skills.languages.item0 }}<span class="text-muted"></span></li>
+											<li>{{ data.skills.languages.item1 }} <span class="text-muted">{{ data.skills.languages.item1.item0 }} </span></li>
+										</ul>
+									</section>
+									<section class="skills-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
+										<ul class="list-unstyled resume-interests-list mb-0">
+											<li class="mb-2">{{ data.skills.interests.item0 }}</li>
+											<li class="mb-2">{{ data.skills.interests.item1 }}</li>
+											<li class="mb-2">{{ data.skills.interests.item2 }}</li>
+											<li>{{ data.skills.technical.item4 }}</li>
+										</ul>
+									</section>
+									
+								</aside><!--//resume-aside-->
+							</div><!--//row-->
+						</div><!--//resume-body-->
+						<hr>
+						<div class="resume-footer text-center">
+							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">{{ data.social.github }}</span></a></li>
+								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">{{ data.social.linkedin }}</span></a></li>
+								<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-kaggle" ></i><span class="d-none d-lg-inline-block text-muted"> &nbsp;  {{ data.social.kaggle }}</span></a></li>
+							</ul>
+						</div><!--//resume-footer-->
+					</article>
+					
+				</div><!--//container-->
+				
+	
+			
+
+</body>
+</html> 
+

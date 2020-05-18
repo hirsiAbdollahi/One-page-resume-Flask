@@ -1,0 +1,109 @@
+# Profile section
+profile:
+  first_name: Hirsi
+  last_name: Abdollahi
+  title: Data Analyst Junior 
+  picture: static/images/resume-profile.png
+  address: Paris
+  phone: 06 00 00 00 00
+  email: adress.email@gmail.com
+  description: >
+    En formation data AI à l'Ecole IA Microsoft/Simplon, je recherche une alternance en data analyst pour valider ma formation et monter en competences. Pour vous, cela peut etre interessant car
+    cette alternance peut faire office de periode
+    d’essai gratuite d'un an avant une embauche.
+    Outre cette formation, j’allie des
+    expériences dans les Big 4, en private
+    equity et en banque avec une formation
+    académique à l'Université Paris-Dauphine
+    pour offrir de solides compétences
+    transversales.
+
+
+# Social section
+social:
+  github: https://github.com/hirsiAbdollahi/
+  linkedin: https://fr.linkedin.com/in/hirsiabdollahi
+  kaggle: https://www.kaggle.com/hirsia
+
+
+# Experience section
+experience:
+  item0:
+    position: Stagiaire analyste risque de crédit 
+    company: Société Generale 
+    from: Jui 2014
+    to: Dec 2014
+    description: 
+      item1 : "Conduite d'analyses « peer group » approfondies : Analyse comparative au travers de critères pertinents qui soulignent les tendances de l'industrie et expliquent les différences de notations. Secteurs : Fertilisants, Energies, Agroalimentaire, Grande distribution, Transports, Municipalités"
+      item2 : Conduite de plusieurs évaluations du risque de crédit de clients en analysant les états financiers et les termes du contrat de crédit
+
+      item3 : "Réalisation des stress tests sur l’entité Rosbank : définition du périmètre des tests, définition des scenarii, identification des implications sur le portefeuille et calcul du coût du risque" 
+  
+  item1:
+    position: Stagiaire Analyte Private Equity
+    company: Phillimore
+    from: Oct 2013
+    to: Avr 2014
+    description: 
+      item1 : "Suivi des participations en portefeuille : analyse des problématiques ponctuelles rencontrées par les sociétés du portefeuille, veilles de marchés, identification et analyse des cibles potentielles de croissance externe, valorisation trimestrielle des sociétés en portefeuille"
+      item2 : "Analyse d’opportunités d’investissements et participation au due diligence : analyse de marchés, positionnement concurrentiel, modélisation du business plan et de la structure financière à mettre en place (dont LBO), simulation via jeux d’hypothèses et leviers, Modélisation et calcul de KPI et ratio clé (TRI, …)"
+
+      item3 : "Rédaction des notes à destination du Conseil d’Investissement et participation à la levée de fonds" 
+  
+
+  item2:
+    position: Stagiaire Auditeur Financier
+    company: Deloitte
+    from: Juin 2011
+    to: Sept 2011
+    description: 
+      item1 : "Conduite d'analyses « peer group » approfondies : Analyse comparative au travers de critères pertinents qui soulignent les tendances de l'industrie et expliquent les différences de notations. Secteurs : Fertilisants, Energies, Agroalimentaire, Grande distribution, Transports, Municipalités"
+      item2 : Conduite de plusieurs évaluations du risque de crédit de clients en analysant les états financiers et les termes du contrat de crédit
+
+      item3 : "Réalisation des stress tests sur l’entité Rosbank : définition du périmètre des tests, définition des scenarii, identification des implications sur le portefeuille et calcul du coût du risque" 
+  
+ 
+  # Skills
+skills:
+  technical:
+    item0: JavaScript/Angular/React/Vue
+    item1: Python/Ruby/PHP
+    item2: Node.js/ASP.NET
+    item3: PostgreSQL/MySQL
+    item4: Object-oriented design
+    item5: Design and implement database structures
+    item6: Lead and deliver complex software system
+  professional:
+    item0: Effective communication
+    item1: Team player
+    item2: problem solver
+    item3: Good time management
+  languages:
+    item0: Francais
+    item1: Anglais
+  interests:
+    item0: Climbing
+    item1: Snowboarding
+    item2: Photography
+    item3: Travelling
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
